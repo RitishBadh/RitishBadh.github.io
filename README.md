@@ -1,1 +1,0 @@
-# RitishBadh.gethub.io
