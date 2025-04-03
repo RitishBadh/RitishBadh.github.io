@@ -1,1 +1,1 @@
-# RitishBadh.gethub.io
+# RitishBadh.github.io
