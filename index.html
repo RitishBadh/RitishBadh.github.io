@@ -1,85 +1,151 @@
 <!DOCTYPE html>
-<html lang="en">
+
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HTML Lab_1</title>
-</head>
-<body background="pexels-apasaric-1323712.jpg">
-    <h1 align="center" style="background-color:rgb(144, 143, 146) ;font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;font-size: 60px;">PUNJABI's KHANA</h1>
-    <p align="Left" style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;font-size: 20px;"> Here you can find delicious Punjabi cuisine </p>
-    <div class="navbar"; align="center">
-    <!-- What would you like to have  -->
-        <input type="text" placeholder="Search..">
-    </div>
-    <!-- Navigate yourself-->
-    <div class="navbar" style="padding:2mm;word-spacing: 4cm; color:black ;" align="center">
-        <h2><a href="#home"style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">Home</a>
-        <a href="#menu" style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">Menu</a>
-        <a href="#Location"style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">Location</a>
-        <a href="#Orders"style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">Orders</a>
-        <a href="#Sign-up/ Sign-in"style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">Sign-up/Sign-in</a>
-        </h2>
-    </div>
-    <!-- About Us of the restaurant  -->
-    <div id="about_us">
-        <h3>About Us</h3>
-        <!-- Brief information about the restaurant  -->
-        <p> Our restaurant has all the punjabi cuisines, that people miss when they come to Canada. Here you can have the taste of Punjab without missing your home country's food. Further, if we talk about our recepies, these are hand over to us by our grandparents. So, that's the reason our food and dishes had a taste of Punjab </p>
-    </div>
-    <h3 align="center" style="font-size:x-large;font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;background-color: rgb(144, 143, 146);"> Punjabi's special MENU </h3>
-    <h4 align="Left" style="font-size: larger; color: #e9691a;font-size: 30px;font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;"> BREAK FAST</h4>
-     <!-- Table -->
-    <table align="Left"; border="5cm">
-        <tr>
-            <td> Aloo paratha  $2.30 </td>
-             <td>
-                <img src="pexels-jack-baghel-2199968-20408462.jpg" alt="B1" width="400"height="250">
-            </td>
-            
-        </tr>
-        <tr>
-            <td> Naan's with Lassi  $4.5 </td>
-            <td><img src="pexels-paggiarofrancesco-1117862.jpg" alt="B2" width="400" height="=250">
-            </td>
-        </tr>
-    </table>
-    <h5 align="center" style="font-size: larger; color: #e9691a;font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; font-size: 30px;"> LUNCH</h5>
-    <table align="center"; border="5cm">
-        <tr>
-            <td>Butter Chicken  $8.50 </td>
-             <td>
-                <img src="pexels-jack-baghel-2199968-20408448.jpg" alt="L1" width="400"height="250">
-            </td>
-            
-        </tr>
-        <tr>
-            <td> Dal Makhani   $3.70 </td>
-            <td><img src="pexels-dhiraj-jain-207743066-12737917.jpg" alt="L2" width="400" height="=250">
-            </td>
-        </tr> 
-    </table>
     
-<h4>Famous Punjabi dishes </h4>
-    <ul>
-        <li>Butter Chicken</li>   
-        <li>Aloo Paratha</li>
-        <li>Dal Makhani</li>
-        <li> Kadhai Paneer</li>
-        <li>Naan With Shahi Paneer</li>
-    </ul>
-    <h5>Popular Punjabi Desserts </h5>
-    <ol>
-        <li> Gulab Jamun </li>
-        <li>Ras Malai </li>
-        <li>Kaju Katli</li>
-        <li>Gulab Jamun Ice cream</li>
-        <li> Jalebi</li>
-    </ol>
-    <!-- Bookmark -->
-    <div id= "Tap here">
-        <!-- Inline  -->
-        <span> You can order from Here  <a href="https://www.doordash.com/en-CA/?ignore_splash_experience=true&gclsrc=aw.ds&&utm_source=Google&utm_medium=SEMb&utm_campaign=CX_CA_SE_SB_GO_ACQ_24XXXX_2038387838_RSTRNT_+BR_ACQ_INMKT_GENDELIVERYXX_EVG_CPAX_EPX_COCAN_EN_EN_X_DOOR_GO_SE_TXT_XXXXXXXXXX&utm_term=doordash&utm_content=73780474922&kclickid=_k_Cj0KCQjwkZm_BhDrARIsAAEbX1HTmZb6q9DjCqekI7g_4HuJiAn6wdyPOiwIFTDVm8NqGYfIB4kQ1OoaAtUHEALw_wcB_k_&utm_adgroup_id=73780474922&utm_creative_id=562542935945&utm_keyword_id=kwd-63454401416&gad_source=1&gbraid=0AAAAADemgEtRU7HMrgZpPdCoD8PSapOm6&gclid=Cj0KCQjwkZm_BhDrARIsAAEbX1HTmZb6q9DjCqekI7g_4HuJiAn6wdyPOiwIFTDVm8NqGYfIB4kQ1OoaAtUHEALw_wcB">Click Here</a></span>
+    <title>css Lab 2</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body background="pexels-apasaric-1323712.jpg">
+    <div class="search">
+        <input type="text" id="search" placeholder="">
+        <button type="submit"> 🔎</button>
     </div>
+
+    <div class="nav">
+        <ul>
+            <li><a href="#"> Punjabi Khana</a></li>
+            <li><a href="">Home</a></li>
+            <li><a href="">Menu</a></li>
+            <li><a href="">Location</a></li>
+            <li><a href="">Orders</a></li>
+        </ul>
+    </div>
+
+    <div class="about">
+            <h1>About Us</h1>
+            <p>Our restaurant has all the punjabi cuisines, that people miss when they come to Canada. Here you can have the taste of Punjab without missing your home country food. Further, if we talk about our recepies, these are hand over to us my our grandparents. So, that's the reason our food and dishes had a taste of Punjab.
+
+            </p>
+
+            <img src="pexels-life-of-pix-67468.jpg" alt="restaurant" height="700px" width="1400px">
+    </div>
+    
+    <h2 style="color: orange;">Top Food recommendations</h2>
+    <div class="recommendation">
+        
+        <div class="food">
+            <h3>Aloo paratha</h3>
+            <img src="pexels-jack-baghel-2199968-20408462.jpg" alt="food" height="200px">
+            <p>$14.99</p>
+        </div>
+        <div class="food">
+            <h3>Butter Chicken</h3>
+            <img src="pexels-jack-baghel-2199968-20408448.jpg" alt="food" height="200px">
+            <p>$14.99</p>
+        </div>
+        <div class="food">
+            <h3>Curry Rice</h3>
+            <img src="pexels-catscoming-674574.jpg" alt="food" height="200px">
+            <p>$14.99</p>
+        </div>
+        <div class="food">
+            <h3>Naan's with Lassi</h3>
+            <img src="/pexels-paggiarofrancesco-1117862.jpg" alt="food" height="200px">
+            <p>$14.99</p>
+        </div>
+        <div class="food">
+            <h3>Dal Makhani</h3>
+            <img src="pexels-dhiraj-jain-207743066-12737917.jpg" alt="food" height="200px">
+            <p>$14.99</p>
+        </div>
+        <div class="food">
+            <h3>Chicken Briyani</h3>
+            <img src="pexels-prabal-9609854.jpg" alt="food" height="200px">
+            <p>$14.99</p>
+        </div>
+    </div>
+    <div class="title">
+        <main id="main" >
+            ⬇️ Have a look on these too! you may love to order them ⬇️ 
+        </main>
+    </div>
+        <div>
+    <table class="punjabi">
+        <tr>
+            <th>Famous Punjabi Dishes</th>
+        </tr>
+        <tr>
+            <td>Butter Chicken</td>
+        </tr>
+        <tr>
+            <td>Aloo Paratha</td>
+        </tr>
+        <tr>
+            <td>Dal Makhani</td>
+        </tr>
+        <tr>
+            <td>Kadhai Paneer</td>
+        </tr>
+        <tr>
+            <td>Naan With Shahi Paneer</td>
+        </tr>
+    </table>
+    </div>
+</div>
+    
+    <div>
+    <table class="punjabi">
+        <tr>
+            <th>Popular Punjabi Desserts</th>
+        </tr>
+        <tr>
+            <td>Gulab Jamun</td>
+        </tr>
+        <tr>
+            <td>Ras Malai</td>
+        </tr>
+        <tr>
+            <td>Kaju Katli</td>
+        </tr>
+        <tr>
+            <td>Gulab Jamun Ice Cream</td>
+        </tr>
+        <tr>
+            <td>Jalebi</td>
+        </tr>
+    </table>
+
+</div>
+    <div class="value">
+        <h2>Thank you For visiting 🙏🏻 </h2>
+        <p>Punjabi Khana </p>
+        
+    </div>
+    <div class="footer">
+        <div class="footer-container">
+            <ul>
+                <li>Home</li>
+                <li>About us</li>
+                <li>Nutritional INFO</li>
+                <li>FAQ's</li>
+            </ul>
+            <ul>
+                <li>Location</li>
+                <li>Stores</li>
+                <li>Branch</li>
+                <li>Map</li>
+            </ul>
+            <ul>
+                <li>Food</li>
+                <li>Menu</li>
+                <li>Liquor</li>
+                <li>Report</li>
+            </ul>
+        </div>
+    </div>
+    
 </body>
+
 </html>

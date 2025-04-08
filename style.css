@@ -1,0 +1,180 @@
+body {
+    font-size: x-large;
+    text-emphasis-color:black;
+    background-color: azure;
+    font-family: 'Times New Roman', serif;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.nav {
+    background-color: gray;
+    width: 100%; 
+}
+
+.nav ul {
+    display: flex;
+    justify-content: center; 
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.nav ul li {
+    font-size: 24px;
+    font-weight: 200;
+    padding: 20px;
+}
+
+.nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.nav ul li:hover {
+    cursor: pointer;
+    transition: 0.4s;
+    background-color: darkgray; 
+    border-radius: 4px;
+}
+
+.about {
+    width: 80%;
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    text-align: center; 
+    margin: 50px 0;
+}
+
+.about h1 {
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.recommendation:first-child {
+    display: ruby-base;
+}
+
+.recommendation {
+    display: flex;
+    width: 80%;
+    flex-wrap: wrap;
+    justify-content: space-between; 
+}
+
+.food {
+    border: 1px solid black;
+    border-radius: 8px;
+    text-align: center;
+    width: 30%; 
+    margin-bottom: 20px; 
+    padding: 10px;
+    box-sizing: border-box; 
+}
+
+.food h3 {
+    font-size: 34px;
+}
+
+.food p {
+    font-size: 18px;
+    text-wrap: wrap;
+}
+.value h2{
+    text-align: center;
+}
+.value p{
+    text-align: center;
+    margin: 5px 100px;
+    font-size: 20px;
+}
+.footer {
+    margin-top: 30px;
+    background-color: gray;
+    width: 100%;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-evenly; 
+    gap: 50px; 
+}
+
+.footer ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+
+}
+
+.footer ul li {
+    margin: 10px 0; 
+    color: white;
+}
+
+.footer a {
+    text-decoration: none;
+    color: rgb(167, 167, 167);
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+.punjabi {
+    width: 100%;
+    margin: 20px ;
+    float: left;
+    border-collapse: collapse;
+    text-align: left;
+    font-size: 20px;
+    margin-bottom: 20px; 
+    padding: 10px;
+    border: 2px solid black;
+    box-sizing: border-box;
+}
+
+.punjabi th, .punjabi td {
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.punjabi th {
+    background-color: orange;
+    color: white;
+    font-size: 24px;
+}
+
+.punjabi td {
+    background-color: white;
+}
+.title {
+    text-align: center;
+    margin-top: 40px;
+    font-family: 'Times New Roman', serif;
+  }
+  .title main#main {
+    font-size: 1.5rem;
+    color: black;
+    background-color: rgb(131, 131, 131);
+    padding: 20px;
+    margin: 0 ;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+}
+.recommendation:first-child {
+    display: ruby-base;
+}
