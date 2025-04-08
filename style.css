@@ -1,3 +1,4 @@
+/* overall layout and typography  */
 body {
     font-size: x-large;
     text-emphasis-color:black;
@@ -12,12 +13,12 @@ body {
     align-items: center;
 }
 
-
+/* navigation bar container  */
 .nav {
     background-color: gray;
     width: 100%; 
 }
-
+/* navigation list layout */
 .nav ul {
     display: flex;
     justify-content: center; 
@@ -25,7 +26,7 @@ body {
     padding: 0;
     margin: 0;
 }
-
+/* navigation styling  */
 .nav ul li {
     font-size: 24px;
     font-weight: 200;
@@ -36,14 +37,14 @@ body {
     color: white;
     text-decoration: none;
 }
-
+/* hover effect for nav items  */
 .nav ul li:hover {
     cursor: pointer;
     transition: 0.4s;
     background-color: darkgray; 
     border-radius: 4px;
 }
-
+/* about section container  */
 .about {
     width: 80%;
     display: flex;
@@ -52,17 +53,17 @@ body {
     text-align: center; 
     margin: 50px 0;
 }
-
+/* heading for about section  */
 .about h1 {
     font-size: 40px;
     text-align: center;
     margin-bottom: 20px;
 }
-
+/* placeholder  */
 .recommendation:first-child {
     display: ruby-base;
 }
-
+/* layout for recommendation section  */
 .recommendation {
     display: flex;
     width: 80%;
@@ -96,6 +97,7 @@ body {
     margin: 5px 100px;
     font-size: 20px;
 }
+/* footer container  */
 .footer {
     margin-top: 30px;
     background-color: gray;
@@ -130,6 +132,7 @@ body {
 .footer a:hover {
     text-decoration: underline;
 }
+/* Styles for both Punjabi dishes and dessert tables */
 .punjabi {
     width: 100%;
     margin: 20px ;
@@ -153,10 +156,11 @@ body {
     color: white;
     font-size: 24px;
 }
-
+/* table cell background  */
 .punjabi td {
     background-color: white;
 }
+/* title section layout  */
 .title {
     text-align: center;
     margin-top: 40px;
@@ -171,14 +175,16 @@ body {
     border-radius: 12px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   }
-
+/* making all images responsive  */
   img {
     max-width: 100%;
     height: auto;
 }
+
 .nav {
     position: relative;
 }
+/* section for thank you message  */
 #thankyou {
     background-color: #fff8e1;
     border: 2px dashed orange;
