@@ -47,4 +47,11 @@ window.onload = function () {
     document.getElementById('Buttonss').onmouseleave = function () {
         document.getElementById('Buttonss').style.background = 'grey';
     };
+
+    // Increment button logic inside onload
+    let count = 0;
+    document.getElementById('buttonCounter').onclick = function() {
+        count = count + 1;
+        document.getElementById('counter').innerHTML = 'You clicked ' + count + ' times';
+    };
 };
