@@ -1,4 +1,3 @@
-/* overall layout and typography  */
 body {
     font-size: x-large;
     text-emphasis-color:black;
@@ -13,12 +12,11 @@ body {
     align-items: center;
 }
 
-/* navigation bar container  */
 .nav {
     background-color: gray;
     width: 100%; 
 }
-/* navigation list layout */
+
 .nav ul {
     display: flex;
     justify-content: center; 
@@ -26,7 +24,7 @@ body {
     padding: 0;
     margin: 0;
 }
-/* navigation styling  */
+
 .nav ul li {
     font-size: 24px;
     font-weight: 200;
@@ -37,14 +35,14 @@ body {
     color: white;
     text-decoration: none;
 }
-/* hover effect for nav items  */
+
 .nav ul li:hover {
     cursor: pointer;
     transition: 0.4s;
     background-color: darkgray; 
     border-radius: 4px;
 }
-/* about section container  */
+
 .about {
     width: 80%;
     display: flex;
@@ -53,17 +51,17 @@ body {
     text-align: center; 
     margin: 50px 0;
 }
-/* heading for about section  */
+
 .about h1 {
     font-size: 40px;
     text-align: center;
     margin-bottom: 20px;
 }
-/* placeholder  */
+
 .recommendation:first-child {
     display: ruby-base;
 }
-/* layout for recommendation section  */
+
 .recommendation {
     display: flex;
     width: 80%;
@@ -97,7 +95,6 @@ body {
     margin: 5px 100px;
     font-size: 20px;
 }
-/* footer container  */
 .footer {
     margin-top: 30px;
     background-color: gray;
@@ -126,13 +123,12 @@ body {
 
 .footer a {
     text-decoration: none;
-    color: rgb(167, 167, 167);
+    color: white;
 }
 
 .footer a:hover {
     text-decoration: underline;
 }
-/* Styles for both Punjabi dishes and dessert tables */
 .punjabi {
     width: 100%;
     margin: 20px ;
@@ -156,40 +152,30 @@ body {
     color: white;
     font-size: 24px;
 }
-/* table cell background  */
+
 .punjabi td {
     background-color: white;
 }
-/* title section layout  */
-.title {
-    text-align: center;
-    margin-top: 40px;
-    font-family: 'Times New Roman', serif;
+button{
+    padding:5px;
+    margin:5px;
+    background-color: grey;
   }
-  .title main#main {
-    font-size: 1.5rem;
-    color: black;
-    background-color: rgb(131, 131, 131);
-    padding: 20px;
-    margin: 0 ;
-    border-radius: 12px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  }
-/* making all images responsive  */
-  img {
-    max-width: 100%;
-    height: auto;
+  button {
+    padding: 5px;
+    margin: 5px;
+    background-color: grey;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    transition: 0.3s ease;
 }
 
-.nav {
-    position: relative;
+/* Hover Effect */
+button:hover {
+    background-color: darkorange;
+    transform: scale(1.05);
+    cursor: pointer;
 }
-/* section for thank you message  */
-#thankyou {
-    background-color: #fff8e1;
-    border: 2px dashed orange;
-    padding: 15px;
-    font-size: 22px;
-    text-align: center;
-    margin-top: 30px;
-}
+
+
