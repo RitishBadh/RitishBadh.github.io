@@ -1,3 +1,4 @@
+/* body styling  */
 body {
     font-size: x-large;
     text-emphasis-color:black;
@@ -11,7 +12,7 @@ body {
     flex-direction: column;
     align-items: center;
 }
-
+/* navigation bar */
 .nav {
     background-color: gray;
     width: 100%; 
@@ -42,7 +43,7 @@ body {
     background-color: darkgray; 
     border-radius: 4px;
 }
-
+/* about section */
 .about {
     width: 80%;
     display: flex;
@@ -57,7 +58,7 @@ body {
     text-align: center;
     margin-bottom: 20px;
 }
-
+/* recommendations  */
 .recommendation:first-child {
     display: ruby-base;
 }
@@ -68,7 +69,7 @@ body {
     flex-wrap: wrap;
     justify-content: space-between; 
 }
-
+/* food items */
 .food {
     border: 1px solid black;
     border-radius: 8px;
@@ -95,6 +96,7 @@ body {
     margin: 5px 100px;
     font-size: 20px;
 }
+/* footer section */
 .footer {
     margin-top: 30px;
     background-color: gray;
@@ -129,6 +131,7 @@ body {
 .footer a:hover {
     text-decoration: underline;
 }
+/* table */
 .punjabi {
     width: 100%;
     margin: 20px ;
@@ -156,6 +159,7 @@ body {
 .punjabi td {
     background-color: white;
 }
+/* buttons */
 button{
     padding:5px;
     margin:5px;
@@ -171,7 +175,7 @@ button{
     transition: 0.3s ease;
 }
 
-/* Hover Effect */
+/* Hover Effect on buttons*/
 button:hover {
     background-color: darkorange;
     transform: scale(1.05);

@@ -1,3 +1,4 @@
+// show message alert with the name and age 
 function showMessage()
 {
     let x = 5;
@@ -6,6 +7,7 @@ function showMessage()
     let message = " Hey  "+name+"  age "+age+" welcome to my webpage ";
     alert(message);
 }
+// if else statement 
 function checkAge()
 {
 let age= 15;
@@ -17,6 +19,7 @@ else{
     alert(" You are not old enough")
 }
 }
+// loop statement 
 function showMany()
 {
     for(let i=1; i<=10;i++)
@@ -48,7 +51,7 @@ window.onload = function () {
         document.getElementById('Buttonss').style.background = 'grey';
     };
 
-    // Increment button logic inside onload
+
     let count = 0;
     document.getElementById('buttonCounter').onclick = function() {
         count = count + 1;
